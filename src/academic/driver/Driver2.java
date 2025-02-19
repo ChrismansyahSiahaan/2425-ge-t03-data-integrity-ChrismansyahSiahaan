@@ -5,7 +5,7 @@ import academic.model.Student;
 import java.util.Scanner;
 
 /**
- * @author 12S23003_Chrismansyah Siahaan
+ * @author 12S23003_Chrismansyah Tolhas Siahaan
  * @author 12S23015_Kevin Kristoforus Samosir
  */
 
@@ -49,6 +49,7 @@ public class Driver2 {
                         String studentId = parts[2];
                         String year = parts[3];
                         String semester = parts[4];
+                        String grade = "none";
 
                         boolean courseExists = false;
                         boolean studentExists = false;

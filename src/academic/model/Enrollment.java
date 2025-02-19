@@ -10,14 +10,12 @@ package academic.model;
     private String studentId;
     private String academicYear;
     private String semester;
-    private String grade;
 
     public Enrollment(String courseId, String studentId, String academicYear, String semester) {
         this.courseId = courseId;
         this.studentId = studentId;
         this.academicYear = academicYear;
         this.semester = semester;
-        this.grade = "None";
     }
 
     public String getCourseId() {
@@ -38,6 +36,7 @@ package academic.model;
 
     @Override
     public String toString() {
-        return courseId + "|" + studentId + "|" + academicYear + "|" + semester + "|" + grade;
+        return courseId + "|" + studentId + "|" + academicYear + "|" + semester + "|none";
     }
 }
+
