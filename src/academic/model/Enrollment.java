@@ -41,4 +41,3 @@ package academic.model;
         return courseId + "|" + studentId + "|" + academicYear + "|" + semester + "|" + grade;
     }
 }
-
