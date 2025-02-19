@@ -36,7 +36,7 @@ package academic.model;
 
     @Override
     public String toString() {
-        return courseId + "|" + studentId + "|" + academicYear + "|" + semester + "|none";
+        return courseId + "|" + studentId + "|" + academicYear + "|" + semester + "|None";
     }
 }
 
